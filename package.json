@@ -1,0 +1,17 @@
+{
+  "name": "starbucksapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Oskar Ahlroth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongo-xlsx": "^1.0.12",
+    "mongoose": "^4.9.3"
+  }
+}
