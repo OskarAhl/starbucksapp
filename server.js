@@ -7,7 +7,7 @@ var   MongoClient       = require('mongodb').MongoClient,
       ObjectId          = require('mongodb').ObjectID,
       storeData         = [];
 
-MongoClient.connect('mongodb://oskar:lolfanv24@ds161890.mlab.com:61890/starbucksapp', function(err, db) {
+MongoClient.connect('mongodb://:.mlab.com:61890/starbucksapp', function(err, db) {
   assert.equal(null, err);
   findStores(db, function() {
     db.close();
