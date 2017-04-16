@@ -1,16 +1,12 @@
 starApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home')
+    $urlRouterProvider.otherwise('/map')
 
     $stateProvider
 
       .state('home', {
-        url:'/',
+        url:'/map',
         templateUrl: 'app/map/map.html',
-        controller: ''
-      })
-      .state('about', {
-        url: '',
-        templateUrl: ''
+        controller: 'mapController'
       })
 });
